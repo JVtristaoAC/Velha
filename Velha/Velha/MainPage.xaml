@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Velha.MainPage">
+
+    <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*,*,*">
+
+        <Button Text="" Grid.Column="0" Grid.Row="0" x:Name="bt1" Clicked="bt1_Clicked"></Button>
+        <Button Text="" Grid.Column="1" Grid.Row="0" x:Name="bt2" Clicked="bt2_Clicked"></Button>
+        <Button Text="" Grid.Column="2" Grid.Row="0" x:Name="bt3" Clicked="bt3_Clicked"></Button>
+
+        <Button Text="" Grid.Column="0" Grid.Row="1" x:Name="bt4" Clicked="bt4_Clicked"></Button>
+        <Button Text="" Grid.Column="1" Grid.Row="1" x:Name="bt5" Clicked="bt5_Clicked"></Button>
+        <Button Text="" Grid.Column="2" Grid.Row="1" x:Name="bt6" Clicked="bt6_Clicked"></Button>
+
+        <Button Text="" Grid.Column="0" Grid.Row="2" x:Name="bt7" Clicked="bt7_Clicked"></Button>
+        <Button Text="" Grid.Column="1" Grid.Row="2" x:Name="bt8" Clicked="bt8_Clicked"></Button>
+        <Button Text="" Grid.Column="2" Grid.Row="2" x:Name="bt9" Clicked="bt9_Clicked"></Button>
+        <Button Text="Começar de novo" Grid.Column="1" Grid.Row="3" x:Name="Confirmar" Clicked="Confirmar_Clicked"></Button>
+        <Label  Text="" Grid.Column="1" Grid.Row="4" x:Name="Mensagem" HorizontalOptions="Center"></Label>
+
+
+
+
+
+    </Grid>
+
+</ContentPage>
